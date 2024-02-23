@@ -3238,7 +3238,7 @@ a.mobile-menu-close {
 
   /* line 113, ../sass/extends.scss */
   a.mobile-menu-close {
-    position: fixed;
+    position: center;
     top: 0;
     right: 0;
     font-size: 20px;
