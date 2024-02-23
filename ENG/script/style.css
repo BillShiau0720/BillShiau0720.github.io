@@ -1242,12 +1242,13 @@ ul.social-icons li i:hover {
 /* Footer 2*/
 /*=========================*/
 #footer .inner {
-	background:#222;
-	padding:40px 0;
-	color:#909090;
+	background: #9c9a9a;
+	padding: 40px 0;
+	color: #141414;
 }
 #footer.footer2 .copyright,#footer.footer2 .copyright a {
 	color:#909090;
+
 }
 #footer .inner ul {
 	list-style:none;
@@ -1312,7 +1313,8 @@ ul.social-icons li i:hover {
 	color:#fff;
 }
 #footer.footer2 .copyright {
-	background:#171717;
+	background: #171717;
+	/*background: #909090;*/
 	padding: 15px 0;
 }
 /*=========================*/
@@ -2796,9 +2798,10 @@ ul.countdown li p {
 
 @media (min-width:768px) {
 	.default-skin.header {
-						background:transparent;
-						border-width:0px;
+		background:transparent;
+		border-width:0px;
 	}
+
 	.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>.open>a,.navbar-default .redq-menu-title,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus {
 						color:#fff;
 	}
@@ -2884,6 +2887,10 @@ ul.countdown li p {
 	}
 	input.contact.col-md-6 {
 		width:48.5%;
+	}
+	.navbar-default2 {
+		padding: 10px 15px;
+		
 	}
 }
 
