@@ -3077,12 +3077,41 @@ ul.countdown li p {
 }
 
 .card__img {
-	border: 3px solid gray;
+	border: 2px solid gray;
 	max-height: 400px;
 	background-size: cover;
 	transition: 0.5s;
 }
+/* Card2*/
+.card2 {
+	border: solid #dddddd;
+	border-width: 1px;
+	border-radius: 3px;
+	font-size: 14px;
+	overflow: hidden;
+	margin-bottom: 25px;
+	cursor: pointer;
+	display: inline-block;
+}
 
+	.card2:hover {
+		
+		transform: translateY(-9px);
+		transition: 0.5s;
+		box-shadow: -8px 8px rgb(0,0,0,0.2);
+	}
+
+.card2__block {
+	position: relative;
+	overflow: hidden;
+}
+
+.card2__img {
+	
+	max-height: 400px;
+	background-size: cover;
+	transition: 0.5s;
+}
 /*
 .card__img:hover {
 		transform: scale(1.5);
