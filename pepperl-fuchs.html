@@ -4,29 +4,7 @@
 <html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=Big5">
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript">
-        //gotop and gocontact
-        $(function () {
-            $("#gotop").click(function () {
-                jQuery("html,body").animate({
-                    scrollTop: 0
-                }, 700);
-            });
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 0) {
-                    $('#gotop').fadeIn("fast");
-                    //$('#gocontact').fadeIn("fast");
-                } else {
-                    //$('#gocontact').stop().fadeOut("fast");
-                    $('#gotop').stop().fadeOut("fast");
-                }
-            });
-            $(window).show(function () {
-                $('#gocontact').fadeIn("fast");
-            });
-        });
-</script>
+
 	<meta http-equiv="Content-Language" content="zh-tw">
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -35,10 +13,8 @@
 	<meta name="author" content="">
 	<style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link rel="icon"
 	href="./images/GCS ICON-RB.png">																																																																																																	
-	<title>康騰自動化有限公司-服務項目</title>
-	<meta description="康騰自動化有限公司的服務項目有1.PLC程式設計 2.圖控人機界面設計 3.風門控制系統 4.儀控設計 5.儀控工程 
-		  6.整合式汽輪機／壓縮機控制系統 7.高壓馬達保護及啟動系統 8.緊急連鎖跳脫控制系統 
-		  9.廠務整合監控系統工程 10.鍋爐／燃燒器控制系統">
+	<title>康騰自動化有限公司-Pepperl+Fuchs產品代理</title>
+	<meta description="康騰自動化有限公司-P+F產品代理有隔離器與工業用電腦">
 	<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
 	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<style>
@@ -75,10 +51,6 @@
 <link href="./script/bootstrap.css" rel="stylesheet">
 <link href="./script/menu-v1.1.css" rel="stylesheet">
 <link href="./script/font-awesome.css" rel="stylesheet">
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
 <script src="./script/all.js"></script>  <!--fontawesome v5.15.1 -->
 <script src="./script/ce4e212a37.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face">/*!
  * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
@@ -106,18 +78,21 @@
     document.documentElement.scrollTop = 0;  //ie
     document.body.scrollTop = 0;  //非ie
 	}
+
+	function hi(i) {
+		document.getElementById(i).style.display = 'none';
+	}
+	function vi(i) {
+		document.getElementById(i).style.display = 'grid';
+	}
+	function chk(i) {
+		document.getElementById('ck1').style.color = 'black';
+        document.getElementById('ck2').style.color = 'black';
+		document.getElementById(i).style.color = 'blue';
+	}
 </script>
 
 </head>
-<!--到最上層按鈕與我們聯絡-->
-<div id="gotop" style="display: none; z-index: 999;position:absolute ">
-	<a style="display:scroll;position:fixed;bottom:80px;right:50px;" title="回到最上層" ;><img width="50px" height="50px" onmouseover="this.src='./images/circleup.png'" src='./images/circleup.png' onmouseout="this.src='./images/circleup.png'" /></a>
-</div>
-<!--
-<div id="gocontact" style="display: none; z-index: 999;position:absolute ">
-	<a href="./contact.html#contactus" style="position:fixed;bottom:300px;right:40px;" title="與我們聯絡" ;><img width="80px" height="80px" onmouseover="this.src='./images/contact-us.png'" src='./images/contact-us.png' onmouseout="this.src='./images/contact-us.png'" /><br>與我們聯絡</a>
-</div>
--->
 <body>
 	<div class="page-loader">
 		<img src="./loader.gif" alt="">
@@ -151,7 +126,7 @@
 											<a href="./index.html"><span class="link-item">Home</span></a>
 										</li>
 										<li class="dropdown">
-											<a href="./products.html" class="dropdown-toggle"><span class="link-item">產品資訊</span></a>
+											<a href="./products.html" class="dropdown-toggle"><span class="link-item" style="color:blue;font-size:14px">產品資訊</span></a>
 											<ul class="sub-menu">
 												<li class="dropdown">
 													<a href="./pepperl-fuchs2.0.html">P+F代理產品</a>
@@ -188,7 +163,7 @@
 											</ul>
 										</li>
 										<li>
-											<a href="./services.html"><span class="link-item" style="color:blue;font-size:14px">服務項目</span></a>
+											<a href="./services.html"><span class="link-item">服務項目</span></a>
 										</li>
 										<li>
 											<!-- scripts.js => tmobile-menu-close -->
@@ -232,120 +207,95 @@
 
 
 
-	<!-- Moving BG-->
-	<!--
-	<section>
-		<div class="carousel business_carousel slide bgmove">
-			<div class="carousel-inner">
-				<div class="item active">
-					<div class="slider-bg">
-						<img class="kenburnsreverse" src="./images/Photo/Service.jpg" alt="slider">
-					</div>
-					<div class="slider_overlay">
-					</div>
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-								<div class="carousel-content">
-									<div class="slider-thumb animated1">
-										<h2>服務項目</h2>
-									</div>
-									<div class="slider-thumb animated2">
-										<h4>Services</h4>
-									</div>
-									<h4>
-										<span class="text2 big wow zoomIn animated" data-wow-delay="0.4s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: zoomIn;">
-											<a href="./index.html">首頁</a>/<a href="./services.html">服務項目</a>
-										</span>
-									</h4>
-									<a href="./services.html#startcontent" class="downarrowpoint wow zoomIn goscroll animated" style="visibility: visible; animation-name: zoomIn;"><i class="fa fa-angle-double-down"></i></a>
-								</div>
-							</div>
-						</div>
+	<!-- short header-->
+	<section class="pagetitle parallax parallax-image" style="background-image:url(http://www.themepush.com/demo-calypso/wp-content/uploads/sites/5/2014/10/wheat-golden-field-fall-hd-wallpaper.jpg);">
+		<div class="wrapsection">
+			<div class="overlay" style="background:#303543;opacity:0.4;">
+			</div>
+			<div class="container">
+				<div class="parallax-content">
+					<div class="block2 text-center" style="color:#fff;">
+						<h3>
+							<span class="text1 big wow bounceIn" data-wow-delay="0s" data-wow-duration="1s">
+								<b>P+F</b>代理產品
+							</span>
+						</h3>
+						<h2>
+							<span class="text2 big wow zoomIn" data-wow-delay="0.4s" data-wow-duration="2s" id="top">
+
+							</span>
+						</h2>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	-->
-	<!-- Swiper -->
-	<br>
-	<div class="swiper mySwiper">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide"><img src="images/Carousel/carousel1.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel2.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel3.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel4.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel5.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel6.png"></div>
-		</div>
-		<div class="swiper-button-next"></div>
-		<div class="swiper-button-prev"></div>
-		<div class="swiper-pagination"></div>
-	</div>
 
-	<!-- Swiper JS -->
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<!-- Content here
+	================================================== -->
+	
+	<section id="startcontent" class="page-wrapper gray-dd">
+		<h2 class="title" style="font-size:25px">
+			<a href="./index.html">首頁</a>><a href="./products.html">代理與銷售產品</a>><a>P+F代理產品</a>
+		</h2>
+		<div class="container knowledgebase">
+			<div class="row  about">
+				<!--left-->
+				<div class="col-md-3" id="leftCol">
+					<ul class="nav nav-stacked" id="sidebar" style="margin-top:20px;">
 
-	<!-- Initialize Swiper -->
-	<script>
-		var swiper = new Swiper(".mySwiper", {
-			spaceBetween: 30,
-			centeredSlides: true,
-			autoplay: {
-				delay: 5000,
-				disableOnInteraction: false,
-			},
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
-			},
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-		});
-	</script>
-	<section id="startcontent" class="page-wrapper gray-g wow zoomIn">
-        <div class="container" >
-            <h2 class="title" style="margin: -35px 0 0 0">服務項目</h2>
-            <p class="tagline">
-                Services
-            </p>
+						<li class="text-center menutitle">P+F代理產品 </li>
 
-            <section class="main__middle__container">
-                <section class="recent-posts-1">
-                    <div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="unstyle" style=" margin: 0px 0px 0px 80px">
-									<ul class="chevronlist" style=" font-size:24px;">
-										<li>整合式汽輪機／壓縮機控制系統</li>
-										<li>PLC程式設計</li>
-										<li>風門控制系統</li>
-										<li>儀控工程</li>
-										<li>廠務整合監控系統工程</li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="unstyle"  style=" margin: 0px 0px 0px 80px">
-									<ul class="chevronlist" style=" font-size:24px;">
-										<li>緊急連鎖跳脫控制系統</li>
-										<li>圖控人機界面設計</li>
-										<li>儀控設計</li>
-										<li>高壓馬達保護及啟動系統</li>
-										<li>鍋爐／燃燒器控制系統</li>
-									</ul>
-								</div>
-							</div>
-							<hr>
+						<li>
+							<a id="ck1" href="#top" onclick="hi('custom-tab-0-unknown-printer1'); vi('custom-tab-0-lore-ipsum1');chk('ck1')" style="color:blue">
+								<font size="3">1. 隔離器 </font>
+							</a>
+						</li>
+						<!--hi('custom-tab-0-lore-ipsum1'); vi('custom-tab-0-unknown-printer1'); chk('ck2')-->
+						<li>
+							<a id="ck2" href="#top" onclick="vi('custom-tab-0-unknown-printer1'); hi('custom-tab-0-lore-ipsum1');chk('ck2')" style="color:black">
+								<font size="3">2. 工業用電腦</font>
+							</a>
+						</li>
+
+						<!--<li><a href="#sec2">3.</a></li>-->
+					</ul>
+				</div>
+				<!--/left-->
+				<!--right-->
+				<div class="col-md-9">
+
+					<div id="custom-tab-0-lore-ipsum1">
+						<h3>隔離器</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/intrinsically_safe_barriers.jpg" class="img-right">
+								隔離器限制了提供給電路的能量，並保護危險區域不受多餘能量的影響。通過將能量限制在安全的水準，本安電路防止潛在爆炸性環境的點火。這簡化了Exi電路的維護和維修。
+							</p>
+							<p class="clearboth"></p>
+							<input type="button" value="產品" onclick="location.href='./pepperl-fuchs-Explosion-proof-products.html'" style="width:120px;height:40px;font-size:20px;">
 						</div>
-                    </div>
-                </section>
-            </section>
-        </div>
+					</div>
+					<div id="custom-tab-0-unknown-printer1" style="display:none">
+						<h3>工業用電腦</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/HMI_Systems.jpg" class="img-right">
+								VisuNet工作站和監控系統在世界各地的石油和天然氣勘探、煉油廠、化學和製藥生產設施中得到信賴，為了確保絕對可靠性，VisuNet 系統採用工業級組件構建，並針對惡劣條件下的長期使用進行了最佳化。
+							</p>
+							<p class="clearboth"></p>
+							<input type="button" value="產品" onclick="location.href='./pepperl-fuchs-HMI.html'" style="width:120px;height:40px;font-size:20px;">
+						</div>
+					</div>
+					<!--
+				</div>-->
+					<!--/right-->
+				</div>
+			</div>
+
 	</section>
+
+
 
 
 
@@ -451,8 +401,8 @@
 	<script src="./script/portfolio.js"></script>
 	<script src="./script/scripts.js"></script>
 	<script>
-									//$(".headerPage").load("header.html"); //呼叫header.html
-									//$(".footerPage").load("footer.html"); //呼叫footer.html
+						//$(".headerPage").load("header.html"); //呼叫header.html
+						//$(".footerPage").load("footer.html"); //呼叫footer.html
 	</script>
 
 </body></html>

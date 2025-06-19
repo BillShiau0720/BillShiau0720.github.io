@@ -4,28 +4,23 @@
 <html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=Big5">
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
-        //gotop and gocontact
-        $(function () {
-            $("#gotop").click(function () {
-                jQuery("html,body").animate({
-                    scrollTop: 0
-                }, 700);
-            });
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 0) {
-                    $('#gotop').fadeIn("fast");
-                    //$('#gocontact').fadeIn("fast");
-                } else {
-                    //$('#gocontact').stop().fadeOut("fast");
-                    $('#gotop').stop().fadeOut("fast");
-                }
-            });
-            $(window).show(function () {
-                $('#gocontact').fadeIn("fast");
-            });
-        });
+	$(function () {
+		$("#gotop").click(function () {
+			jQuery("html,body").animate({
+				scrollTop: 200
+			}, 700);
+		});
+		$(window).scroll(function () {
+           if ($(this).scrollTop() > 400) {
+				$('#gotop').fadeIn("fast");
+			} else {
+
+				$('#gotop').stop().fadeOut("fast");
+			}
+		});
+	});
 </script>
 	<meta http-equiv="Content-Language" content="zh-tw">
 	<!-- Required meta tags -->
@@ -35,10 +30,8 @@
 	<meta name="author" content="">
 	<style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link rel="icon"
 	href="./images/GCS ICON-RB.png">																																																																																																	
-	<title>康騰自動化有限公司-服務項目</title>
-	<meta description="康騰自動化有限公司的服務項目有1.PLC程式設計 2.圖控人機界面設計 3.風門控制系統 4.儀控設計 5.儀控工程 
-		  6.整合式汽輪機／壓縮機控制系統 7.高壓馬達保護及啟動系統 8.緊急連鎖跳脫控制系統 
-		  9.廠務整合監控系統工程 10.鍋爐／燃燒器控制系統">
+
+	<title>康騰自動化有限公司-Pepperl+Fuchs隔離器</title>
 	<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
 	<meta name="ProgId" content="FrontPage.Editor.Document">
 	<style>
@@ -51,9 +44,6 @@
 			margin: 0;
 		}
 
-		
-
-
 
 		.logom {
 			align-self: flex-end;
@@ -65,9 +55,7 @@
             margin: 0;
         }
         
-		
-
-        
+  
 		
 	</style>
 	<!--mstheme-->
@@ -75,10 +63,6 @@
 <link href="./script/bootstrap.css" rel="stylesheet">
 <link href="./script/menu-v1.1.css" rel="stylesheet">
 <link href="./script/font-awesome.css" rel="stylesheet">
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
 <script src="./script/all.js"></script>  <!--fontawesome v5.15.1 -->
 <script src="./script/ce4e212a37.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face">/*!
  * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
@@ -106,18 +90,29 @@
     document.documentElement.scrollTop = 0;  //ie
     document.body.scrollTop = 0;  //非ie
 	}
+
+	function hi(i) {
+		document.getElementById(i).style.display = 'none';
+	}
+	function vi(i) {
+		document.getElementById(i).style.display = 'grid';
+	}
+    function gotop() {
+        jQuery("html,body").animate({
+            scrollTop: 200
+        }, 700);
+	}
+    function chk(i) {
+        document.getElementById('ck1').style.color = 'black';
+		document.getElementById('ck2').style.color = 'black';
+        document.getElementById('ck3').style.color = 'black';
+        document.getElementById('ck4').style.color = 'black';
+        document.getElementById(i).style.color = 'blue';
+    }
+    
 </script>
 
 </head>
-<!--到最上層按鈕與我們聯絡-->
-<div id="gotop" style="display: none; z-index: 999;position:absolute ">
-	<a style="display:scroll;position:fixed;bottom:80px;right:50px;" title="回到最上層" ;><img width="50px" height="50px" onmouseover="this.src='./images/circleup.png'" src='./images/circleup.png' onmouseout="this.src='./images/circleup.png'" /></a>
-</div>
-<!--
-<div id="gocontact" style="display: none; z-index: 999;position:absolute ">
-	<a href="./contact.html#contactus" style="position:fixed;bottom:300px;right:40px;" title="與我們聯絡" ;><img width="80px" height="80px" onmouseover="this.src='./images/contact-us.png'" src='./images/contact-us.png' onmouseout="this.src='./images/contact-us.png'" /><br>與我們聯絡</a>
-</div>
--->
 <body>
 	<div class="page-loader">
 		<img src="./loader.gif" alt="">
@@ -151,7 +146,7 @@
 											<a href="./index.html"><span class="link-item">Home</span></a>
 										</li>
 										<li class="dropdown">
-											<a href="./products.html" class="dropdown-toggle"><span class="link-item">產品資訊</span></a>
+											<a href="./products.html" class="dropdown-toggle"><span class="link-item" style="color:blue;font-size:14px">產品資訊</span></a>
 											<ul class="sub-menu">
 												<li class="dropdown">
 													<a href="./pepperl-fuchs2.0.html">P+F代理產品</a>
@@ -188,7 +183,7 @@
 											</ul>
 										</li>
 										<li>
-											<a href="./services.html"><span class="link-item" style="color:blue;font-size:14px">服務項目</span></a>
+											<a href="./services.html"><span class="link-item">服務項目</span></a>
 										</li>
 										<li>
 											<!-- scripts.js => tmobile-menu-close -->
@@ -232,120 +227,237 @@
 
 
 
-	<!-- Moving BG-->
-	<!--
-	<section>
-		<div class="carousel business_carousel slide bgmove">
-			<div class="carousel-inner">
-				<div class="item active">
-					<div class="slider-bg">
-						<img class="kenburnsreverse" src="./images/Photo/Service.jpg" alt="slider">
-					</div>
-					<div class="slider_overlay">
-					</div>
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-								<div class="carousel-content">
-									<div class="slider-thumb animated1">
-										<h2>服務項目</h2>
-									</div>
-									<div class="slider-thumb animated2">
-										<h4>Services</h4>
-									</div>
-									<h4>
-										<span class="text2 big wow zoomIn animated" data-wow-delay="0.4s" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s; animation-name: zoomIn;">
-											<a href="./index.html">首頁</a>/<a href="./services.html">服務項目</a>
-										</span>
-									</h4>
-									<a href="./services.html#startcontent" class="downarrowpoint wow zoomIn goscroll animated" style="visibility: visible; animation-name: zoomIn;"><i class="fa fa-angle-double-down"></i></a>
-								</div>
-							</div>
-						</div>
+	<!-- short header-->
+	<section class="pagetitle parallax parallax-image" style="background-image:url(http://www.themepush.com/demo-calypso/wp-content/uploads/sites/5/2014/10/wheat-golden-field-fall-hd-wallpaper.jpg);">
+		<div class="wrapsection">
+			<div class="overlay" style="background:#303543;opacity:0.4;">
+			</div>
+			<div class="container">
+				<div class="parallax-content">
+					<div class="block2 text-center" style="color:#fff;">
+						<h3>
+							<span class="text1 big wow bounceIn" data-wow-delay="0s" data-wow-duration="1s">
+								<b>隔離器</b>
+							</span>
+						</h3>
+						<h2>
+							<span class="text2 big wow zoomIn" data-wow-delay="0.4s" data-wow-duration="2s" id="top">
+
+							</span>
+						</h2>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	-->
-	<!-- Swiper -->
-	<br>
-	<div class="swiper mySwiper">
-		<div class="swiper-wrapper">
-			<div class="swiper-slide"><img src="images/Carousel/carousel1.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel2.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel3.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel4.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel5.png"></div>
-			<div class="swiper-slide"><img src="images/Carousel/carousel6.png"></div>
+
+	<!-- Content here
+	================================================== -->
+
+	<section id="startcontent" class="page-wrapper gray-dd">
+		<!--需換字型大小-->
+		<h2 class="title" style="font-size:25px">
+			<a href="./index.html">首頁</a>><a href="./products.html">代理與銷售產品</a>><a href="pepperl-fuchs.html">P+F代理產品</a>><a>隔離器</a>
+		</h2>
+		<div class="container knowledgebase">
+			<div class="row  about">
+				<!--left-->
+				<br>
+				<div class="col-md-3" id="leftCol">
+					<ul class="nav nav-stacked" id="sidebar" style="margin-top:20px;">
+						<li class="text-center menutitle">隔離器 </li>
+						<!--<li><a href="#sec2">3.</a></li>-->
+					</ul>
+					<ul class="nav nav-stacked" id="sidebar">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion-0" href="#collapse1" class=" "
+								   onclick="hi('content1'); hi('content2'); hi('content3'); hi('content4'); hi('first2'); vi('first1'); gotop();chk()">
+									K系列（導軌式）
+								</a>
+							</h4>
+						</div>
+						<div id="collapse1" class="panel-collapse2 collapse in" href="#top">
+							<div class="panel-body2">
+								<ul class="nav nav-stacked" id="sidebar">
+									<li><a id="ck1" href="#br1" onclick="hi('first2'); vi('first1'); hi('content2'); vi('content1'); hi('content3'); hi('content4');chk('ck1')"style="color:black">
+											<font size="3">1. 訊號轉換隔離器 </font></a></li>
+									<li><a id="ck2" href="#br1" onclick="hi('first2'); vi('first1'); hi('content1'); vi('content2');hi('content3');hi('content4');chk('ck2')"style="color:black"> 
+											<font size="3">2. 開關量輸入隔離器</font> </a></li>
+								</ul>
+							</div>
+						</div>
+					</ul>
+
+					<ul class="nav nav-stacked" id="sidebar">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion-0" href="#collapse2" class="collapsed"
+								   onclick="hi('content1'); hi('content2'); hi('content3'); hi('content4'); hi('first1'); vi('first2'); gotop();chk()">
+									H系列（母版式）
+								</a>
+							</h4>
+						</div>
+						<div id="collapse2" class="panel-collapse2 collapse " href="#top">
+							<div class="panel-body2">
+								<ul class="nav nav-stacked" id="sidebar2">
+									<li><a id="ck3" href="#br2" onclick="hi('first1'); vi('first2');hi('content1'); vi('content3');hi('content2');hi('content4');chk('ck3')"style="color:black">
+											<font size="3">1. 隔離器底板</font> </a></li>
+									<li><a id="ck4" href="#br2" onclick="hi('first1'); vi('first2');hi('content1'); vi('content4');hi('content2');hi('content3');chk('ck4')"style="color:black"> 
+											<font size="3">2. 隔離器模組</font></a></li>
+								</ul>
+							</div>
+						</div>
+					</ul>
+				</div>
+
+
+				<!--/left-->
+				<!--right-->
+				<div class="col-md-9">
+					<div id="first1" style="display:grid">
+						<div>
+							<h3>K系統介面技術</h3>
+							<div class="content">
+								<div id="br1"></div>
+								<p>
+									<img src="./images/Product/K_isolated.jpg" class="img-right" style="width:auto;height:auto">
+									K系列隔離式隔離器能夠為用戶提供全方位的解決方案，K系列隔離器保證現場設備和控制室之間可靠&經濟的信號傳送。無論使用者單一的選擇信號隔離模組或者進行大規模的系統整合，K系列產品都能提供面向應用的解決方案。
+
+								</p>
+								<p class="clearboth"></p>
+
+							</div>
+						</div>
+					</div>
+
+					<!--1-->
+					<div id="content1" style="display:none">
+						<h3>KCD2-UT2-Ex1</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/KCD2-UT2-Ex1.png" class="img-right" style="width:auto;height:auto">
+								Universal Temperature Converter
+								<br>
+								1-channel isolated barrier, 24 V DC supply (Power Rail), Thermocouple, RTD, potentiometer or voltage input, Current output 0/4 mA ... 20 mA, Sink or source mode, Configurable by PACTware, Line fault (LFD) and sensor burnout detection, Up to SIL 2 acc. to IEC/EN 61508 / IEC/EN 61511, Housing width: 12.5 mm, Number of channels: 1-channel, Safety Integrity Level (SIL): SIL 2, Rated voltage: 19 ... 30 V DC, Type: 2-wire connection, Type [2]: 3-wire connection, Type [3]: 4-wire connection
+							</p>
+							<a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_14.htm?view=productdetails&prodid=57215" target="_blank">詳細資料</a>
+							<p class="clearboth"></p>
+						</div>
+						<h3>KFD2-PT2-Ex1</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/KFD2-PT2-Ex1.png" class="img-right" style="width:auto;height:auto">
+								Potentiometer Converter
+								<br>
+								1-channel isolated barrier, 24 V DC supply (Power Rail), Potentiometer input, Voltage output 0 V ... 10 V, Lead resistance compensation adjustment, Accuracy 0.05 %, Up to SIL 2 acc. to IEC/EN 61508, Housing width: 20 mm, Number of channels: 1-channel, Safety Integrity Level (SIL): SIL 2, Rated voltage: 20 ... 35 V DC, Type: 3-wire connection, Type [2]: 4-wire connection, Type [3]: 5-wire connection, Field device: potentiometer, Signal: 1 x 0 ... 10 V
+							</p>
+							<a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_14.htm?view=productdetails&prodid=57215" target="_blank">詳細資料</a>
+							<p class="clearboth"></p>
+						</div>
+						<h3 style="background-color: white; border: 3px solid gray;"><a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_14.htm" target="_blank">查看更多</a></h3>
+						<p class="clearboth"></p>
+					</div>
+
+					<!--2-->
+					<div id="content2" style="display:none">
+						<h3>KCD2-SON-Ex1</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/KCD2-UT2-Ex1.png" class="img-right" style="width:auto;height:auto">
+								Switch Amplifier
+								<br>
+								1-channel isolated barrier, 24 V DC supply (Power Rail), Dry contact or NAMUR input, 2 passive transistor outputs (resistive acc. to EN 60947-5-6), Line fault transparency (LFT), Housing width 12.5 mm, Up to SIL 2 (SC 3) acc. to IEC/EN 61508, Housing width: 12.5 mm, Number of channels: 1-channel, Line fault transparency, Safety Integrity Level (SIL): SIL 2, Systematic capability (SC): SC 3, Rated voltage: 19 ... 30 V DC, Field device: NAMUR sensor, Field device [2]: volt-free contact
+							</p>
+							<a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_6.htm?view=productdetails&prodid=53467" target="_blank">詳細資料</a>
+							<p class="clearboth"></p>
+						</div>
+						<h3>KCD2-SLD-Ex1.1045</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/KCD2-UT2-Ex1.png" class="img-right" style="width:auto;height:auto">
+								Solenoid Driver
+								<br>
+								1-channel isolated barrier, 24 V DC supply (bus or loop powered), Output 45 mA at 10 V DC, Line fault transparency (LFT), Test pulse immunity, Housing width 12.5 mm, Up to SIL 3 acc. to IEC/EN 61508, Housing width: 12.5 mm, Number of channels: 1-channel, Line fault transparency, Safety Integrity Level (SIL): SIL 3, Systematic capability (SC): SC 3, Rated voltage: 19 ... 30 V DC
+								loop powered, Type: logic input, Type [2]: field device supply, Test pulse immunity, Field device: 1 x Valve
+							</p>
+							<a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_12.htm?view=productdetails&prodid=102452" target="_blank">詳細資料</a>
+							<p class="clearboth"></p>
+						</div>
+						<h3 style="background-color: white; border: 3px solid gray;"><a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_6.htm" target="_blank">查看更多</a></h3>
+						<p class="clearboth"></p>
+					</div>
+
+					<div id="first2" style="display:none">
+						<div>
+							<h3>H系列（母版式）</h3>
+							<div class="content">
+								<div id="br2"></div>
+								<p>
+									<img src="./images/Product/SDC-group.jpg" class="img-right" style="width:auto;height:auto">
+									H 系列可將多個隔離器安裝在端子板上，連接危險區現場設備和控制系統。與單一介面模組相比，端子板極大地簡化接線，節省了成本。   端子板配有堅固的塑膠機殼，便於在機櫃內快速穩固的安裝。在端子板上有多個安裝卡槽，工程人員不必使用工具即可將隔離器安裝在端子板上。隔離器模組支援熱插拔。可選的故障監測端子板使得操作及維護更加快捷。
+								</p>
+								<p class="clearboth"></p>
+
+							</div>
+						</div>
+					</div>
+					<!--3-->
+					<div id="content3" style="display:none">
+						<h3>FC-GPCD-SDI16-PF</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/FC-GPCD-SDI16-PF.png" class="img-right" style="width:auto;height:auto">
+								Termination Board
+								<br>
+								System board for Honeywell Safety Manager, For 16-channel DI card SDI-1624, For 8 modules, Recommended module: HiC2822 (DI), 24 V DC supply, Hazardous area: pluggable screw terminals, blue, Non-hazardous area: SiC plug, 20-pin, Number of modules: 8, Signal type: Digital Input, Manufacturer: Honeywell, Control system type: Safety Manager
+							</p>
+							<a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_562.htm?view=productdetails&prodid=40971" target="_blank">詳細資料</a>
+							<p class="clearboth"></p>
+						</div>
+						<h3>FC-GPCS-RIO16-PF</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/FC-GPCS-RIO16-PF.png" class="img-right" style="width:auto;height:auto">
+								Termination Board
+								<br>
+								System board for Honeywell Safety Manager, For 32-channel universal I/O card RUSIO-3224, For 16 modules, Recommended modules: HiC2025(A) (AI), HiC2031 (AO), HiC2441 (UIO), HiC2831R2 (DI), HiC2853R2 (DI), HiC2871 (DO), HiC5861 (DO), HiC5863 (DO), Recommended system cable: CAB-HON-**-S37C32-MX-01000, 24 V DC supply, Hazardous area: pluggable screw terminals, blue, Non-hazardous area: Sub-D connector (male), 37-pin, Number of modules: 16, Signal type: Universal, Manufacturer: Honeywell
+							</p>
+							<a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_562.htm?view=productdetails&prodid=49040" target="_blank">詳細資料</a>
+							<p class="clearboth"></p>
+						</div>
+						<h3 style="background-color: white; border: 3px solid gray;"><a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_562.htm" target="_blank">查看更多</a></h3>
+						<p class="clearboth"></p>
+					</div>
+					<!--4-->
+					<div id="content4" style="display:none">
+						<h3>H系列介面模組</h3>
+						<div class="content">
+							<p>
+								<img src="./images/Product/HModule.jpg" class="img-right" style="width:auto;height:auto">
+								H系列介面模組可以很容易的插接在端子板上，無需任何輔助工具和電纜接線。模組的本安現場信號與安全區非本安測之間電氣隔離。
+
+								H系列介面模組的主要特性是通道密集度高，節省空間，單回路整合和開車調試簡便。
+							</p>
+							<a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_262.htm" target="_blank">詳細資料</a>
+							<p class="clearboth"></p>
+						</div>
+						<h3 style="background-color: white; border: 3px solid gray;"><a href="https://www.pepperl-fuchs.com/taiwan/zh/classid_542.htm" target="_blank">查看更多</a></h3>
+						<p class="clearboth"></p>
+					</div>
+					<!--
+	</div>-->
+					<!--/right-->
+				</div>
+			</div>
 		</div>
-		<div class="swiper-button-next"></div>
-		<div class="swiper-button-prev"></div>
-		<div class="swiper-pagination"></div>
+
+	</section>
+	<!--到最上層按鈕-->
+	<div id="gotop" style="display: none; z-index: 999;position:absolute ">
+		<a style="display:scroll;position:fixed;bottom:100px;right:50px;" title="回到最上層" ;><img width="50px" height="50px" onmouseover="this.src='./images/circleup.png'" src='./images/circleup.png' onmouseout="this.src='./images/circleup.png'" /></a>
 	</div>
 
-	<!-- Swiper JS -->
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-	<!-- Initialize Swiper -->
-	<script>
-		var swiper = new Swiper(".mySwiper", {
-			spaceBetween: 30,
-			centeredSlides: true,
-			autoplay: {
-				delay: 5000,
-				disableOnInteraction: false,
-			},
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
-			},
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-		});
-	</script>
-	<section id="startcontent" class="page-wrapper gray-g wow zoomIn">
-        <div class="container" >
-            <h2 class="title" style="margin: -35px 0 0 0">服務項目</h2>
-            <p class="tagline">
-                Services
-            </p>
-
-            <section class="main__middle__container">
-                <section class="recent-posts-1">
-                    <div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="unstyle" style=" margin: 0px 0px 0px 80px">
-									<ul class="chevronlist" style=" font-size:24px;">
-										<li>整合式汽輪機／壓縮機控制系統</li>
-										<li>PLC程式設計</li>
-										<li>風門控制系統</li>
-										<li>儀控工程</li>
-										<li>廠務整合監控系統工程</li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="unstyle"  style=" margin: 0px 0px 0px 80px">
-									<ul class="chevronlist" style=" font-size:24px;">
-										<li>緊急連鎖跳脫控制系統</li>
-										<li>圖控人機界面設計</li>
-										<li>儀控設計</li>
-										<li>高壓馬達保護及啟動系統</li>
-										<li>鍋爐／燃燒器控制系統</li>
-									</ul>
-								</div>
-							</div>
-							<hr>
-						</div>
-                    </div>
-                </section>
-            </section>
-        </div>
-	</section>
 
 
 
@@ -451,8 +563,8 @@
 	<script src="./script/portfolio.js"></script>
 	<script src="./script/scripts.js"></script>
 	<script>
-									//$(".headerPage").load("header.html"); //呼叫header.html
-									//$(".footerPage").load("footer.html"); //呼叫footer.html
+							//$(".headerPage").load("header.html"); //呼叫header.html
+							//$(".footerPage").load("footer.html"); //呼叫footer.html
 	</script>
 
 </body></html>
